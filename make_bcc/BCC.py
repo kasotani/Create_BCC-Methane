@@ -1,4 +1,4 @@
-rcc = 20  # C_C間距離(nm)
+rcc = 2.0  # C_C間距離(nm)
 rch = 0.109  # C_H間距離(nm)
 a = rcc/3**0.5
 b = rcc/3**0.5
