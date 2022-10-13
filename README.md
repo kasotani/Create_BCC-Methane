@@ -1,12 +1,12 @@
 # How to Run?
 
 $ gmx grompp -f grompp.mdp -c conf.gro -p topol.top -o topol.tpr >& num.gentpr.log<br>
-** grompp.mdp, conf.gro, topol.top から topol.tpr を作成
-** change以降は "-c conf.gro" が "-c old.tpr -t old.cpt" になる
+* grompp.mdp, conf.gro, topol.top から topol.tpr を作成
+* change以降は "-c conf.gro" が "-c old.tpr -t old.cpt" になる
 
 <br>
 
-$ gmx mdrun -notunepme -nt 16 -s topol.tpr -c num-last.gro -deffnm num >& num.gentpr.log<br><br>
+$ gmx mdrun -notunepme -nt 16 -s topol.tpr -c num-last.gro -deffnm num >& num.gentpr.log<br>
 * topol.tpr から hoge.tpr や hoge.gro などを作成
 
 # .topファイル
