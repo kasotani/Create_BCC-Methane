@@ -20,7 +20,7 @@ $ gmx mdrun -notunepme -nt 16 -s topol.tpr -c num-last.gro -deffnm num >& num.ge
 * init > stab > main
 * dt = 2fs
 * step数は 10000 > 100000 > 500000
-* ref_t(K)とref_p(GPa)を変更して使用
+* ref_t(K)とref_p(bar)を変更して使用
 
 # .groファイル
 
