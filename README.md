@@ -12,8 +12,6 @@ $ gmx mdrun -notunepme -nt 16 -s topol.tpr -c num-last.gro -deffnm num >& num.ge
 # .topファイル
 
 * CH4, 伸縮は固定, 電荷無し
-* 原子数（最終行）は後で修正
-
 
 # .mdpファイル
 
