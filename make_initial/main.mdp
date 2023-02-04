@@ -34,7 +34,7 @@ tcoupl                   = nose-hoover
 nh-chain-length          = 1           
 tc_grps                  = System            
 tau_t                    = 0.6                 
-ref_t                    = 50.0               
+ref_t                    = 300.0               
 
 ; Pressure coupling                         
 Pcoupl                   = Parrinello-Rahman          
