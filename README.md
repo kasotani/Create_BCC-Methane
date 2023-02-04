@@ -23,3 +23,4 @@ $ gmx mdrun -notunepme -nt 16 -s topol.tpr -c num-last.gro -deffnm num >& num.ge
 # .groファイル
 
 * make_bcc内のBCC.pyで作成
+$ python3 make_bcc.py > bcc.gro
